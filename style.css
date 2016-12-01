@@ -1,0 +1,92 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.forms{
+	margin:10px auto;
+	max-width:300px;
+	background:#DBDBDB;
+	padding:10px 20px;
+	border-radius:8px;
+}
+h1{
+	text-align:center;
+}
+.button {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #4bc970;
+    border-radius: 5px;
+    font-weight: normal;
+    padding: 5px;
+	border:1px solid #3ac162;
+}
+.orange
+{
+	border:1px solid orange;
+}
+#pic{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.color{
+color:red;	
+}
+.hide{
+	display:none;
+}
+.remove, .edit
+{
+	width:20px;
+	 height:20px;
+	 cursor:pointer;	
+}
+.details{
+	display:inline-block;
+	padding: 20px;
+}
+input[type="text"],input[type="password"],input[type="date"]{
+	width:100%;	
+	padding:5px 0 5px 5px;
+}
+input[type="radio"]{
+	
+margin-bottom: 20px;
+}
+select{
+	margin:5px;
+	padding:5px;
+	
+}
+body{
+	font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+.search-form
+{
+	float:right;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	float:left;
+	margin-top:10px;
+}
